@@ -19,3 +19,6 @@ Output:
 ## Setup
 ## How to use the program
 
+Once the program is running it will prompt the user to specify how many phases this project be made up of and how long each phase is in weeks. 
+
+Then the program will ask the user to imput the personnel's job title, wage per hour, and effort precentage. 
