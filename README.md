@@ -24,3 +24,5 @@ Once the program is running, it will prompt the user to specify how many phases 
 The program will then ask the user to input the personnel's job title, wage per hour, and effort percentage. 
 
 After each personnel is added, the program will continue to ask if the user is done. If the user can either input 'done' to move on to the phase or press return to continuing entering more inputs
+
+After the user has inputted everything the program will export all entered information to a CSV for the user. 
