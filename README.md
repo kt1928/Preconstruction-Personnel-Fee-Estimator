@@ -1,5 +1,5 @@
 # Preconstruction-Personnel-Fee-Estimator
-This program estimates preconstruction personnel fee for each phase of constuctiuon and for the entire construction
+This program estimates preconstruction personnel fee for each phase of construction and the entire construction
 
 Assumptions:
 
@@ -7,10 +7,15 @@ Assumptions:
 
 Inputs:
 
-* For each personnel you will be ased to input their:
+* For each personnel, you will be asked to input their:
   * Job title
   * Wage per hour
-  * Effort Precentage 
+  * Effort precentage 
 
 Output:
-* A csv containing each personnel's cost, the total cost estimate for the personnel for that phase of consturction, eand the total 
+
+* A CSV containing each personnel's cost, the total cost estimate for the personnel for that phase of construction, and the total  
+
+## Setup
+## How to use the program
+
