@@ -1,11 +1,11 @@
 # Preconstruction-Personnel-Fee-Estimator
 This program estimates preconstruction personnel fee for each phase of construction and the entire construction
 
-_Assumptions:
+_Assumptions:_
 
 * A work week is 40 hours
 
-_Inputs:
+_Inputs:_
 
 * For each personnel, you will be asked to input their:
   * Job title
@@ -13,7 +13,7 @@ _Inputs:
   * Effort precentage 
   * Weeks worked
 
-_Output:
+_Output:_
 
 * A CSV containing each personnel's cost, the total cost estimate for the personnel for that phase of construction, and the total  
 
