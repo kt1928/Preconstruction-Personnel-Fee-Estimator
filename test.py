@@ -33,3 +33,14 @@ class TestRoster(unittest.TestCase):
 
         person2 = f.Person(self.title2, wage, self.effort2)
         self.assertEqual(person2.calc_hours(self.weeks, self.effort2), 160)
+
+    def test_calc_pay(self):
+        """
+        Tests whether pay is calculated properly
+        """
+
+        person = f.Person(self.title, self.wage, self.effort)
+        self.assertEqual(person.calc_pay(self.wage, self.weeks, self.effort), 3600)
+
+        person2 = f.Person(self.title2, self.wage2, self.effort2)
+        self.assertEqual(person2.calc_pay(self.wage2, self.weeks, self.effort2), 3360)
