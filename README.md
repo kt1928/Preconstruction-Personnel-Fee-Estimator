@@ -11,6 +11,7 @@ Inputs:
   * Job title
   * Wage per hour
   * Effort precentage 
+  * Weeks worked
 
 Output:
 
@@ -22,8 +23,8 @@ Downlaod the program and unzip it. Then open the folder contaning the program in
 
 ## How to use the program
 
-Once the program is running, it will prompt the user to input the personnel's job title, wage per hour, and effort percentage. 
+Once the program is running, it will prompt the user to input the personnel's job title, wage per hour, effort percentage, and weeks worked. 
 
-After each personnel is added, the program will continue to ask if the user is done. The user can either input 'exit' to move on to the phase or press return to continuing entering more inputs
+After each personnel is added, the program will continue to ask if the user is done. The user can either input 'exit' to move on to the phase or press return to continuing entering more inputs.
 
 After the user has inputted everything the program will export all entered information to a CSV for the user. 
