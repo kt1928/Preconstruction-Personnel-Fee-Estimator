@@ -17,3 +17,7 @@ class Person:
 
   def calc_hours(self,weeks,effort): # A list to calculate how many hours the personnel will work based on their effort precentage
       return weeks*40*(effort/100) # Assumed an average work week is 40  hours. Can be ajusted for more accurate estimation
+
+  def calc_pay(self, wages,weeks,effort): # A list to calculate how much each personnel is payed 
+      self.pay = self.calc_hours(weeks,effort) * wages # (hours worked * wage per hour)
+      return self.calc_hours(weeks,effort) * wages
