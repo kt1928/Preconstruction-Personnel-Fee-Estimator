@@ -17,12 +17,13 @@ Output:
 * A CSV containing each personnel's cost, the total cost estimate for the personnel for that phase of construction, and the total  
 
 ## Setup
+
+Downlaod the program and unzip it. Then open the folder contaning the program in the enviroment of your choice. Make sure the csv file is in the same folder as the program
+
 ## How to use the program
 
-Once the program is running, it will prompt the user to specify how many phases this project will be made up of and how long each phase is in weeks.
+Once the program is running, it will prompt the user to input the personnel's job title, wage per hour, and effort percentage. 
 
-The program will then ask the user to input the personnel's job title, wage per hour, and effort percentage. 
-
-After each personnel is added, the program will continue to ask if the user is done. If the user can either input 'done' to move on to the phase or press return to continuing entering more inputs
+After each personnel is added, the program will continue to ask if the user is done. The user can either input 'exit' to move on to the phase or press return to continuing entering more inputs
 
 After the user has inputted everything the program will export all entered information to a CSV for the user. 
