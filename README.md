@@ -46,7 +46,4 @@ Entire Roster Pay: 28800.0
 Precon Exec was added to the roster
 Type 'exit' to exit the program or Press return to continue: 
 ```
-Continue to add personnel until done. Once the user types _exit_ it will stop the program and export all data to a csv and look like this: 
-
-
-Precone Exec | 50 | 32 | 28800.0
+Continue to add personnel until done. Once the user types _exit_ it will stop the program and export all data to a csv
