@@ -21,3 +21,6 @@ class Person:
   def calc_pay(self, wages,weeks,effort): # A list to calculate how much each personnel is payed 
       self.pay = self.calc_hours(weeks,effort) * wages # (hours worked * wage per hour)
       return self.calc_hours(weeks,effort) * wages
+
+  def __str__(self):
+      return "Title: " + self.jobTitle + ", Wage: " + str(self.wage) + ", Effort: " + str(self.effort)
