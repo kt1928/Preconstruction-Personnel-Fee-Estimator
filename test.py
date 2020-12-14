@@ -44,3 +44,18 @@ class TestRoster(unittest.TestCase):
 
         person2 = f.Person(self.title2, self.wage2, self.effort2)
         self.assertEqual(person2.calc_pay(self.wage2, self.weeks, self.effort2), 3360)
+
+
+    def test_add_to_roster(self):
+        """
+        Tests whether to roster is done properly
+        """
+        self.assertEqual(len(f.full_roster), 0) # make sure list is empty before adding anyone
+
+        person = f.Person(self.title, self.wage, self.effort)
+        person.add_personnel()
+        self.assertEqual(len(f.full_roster), 1)
+
+        person2 = f.Person(self.title2, self.wage2, self.effort2)
+        person2.add_personnel()
+        self.assertEqual(len(f.full_roster), 2)
