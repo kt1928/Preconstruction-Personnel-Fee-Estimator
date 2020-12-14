@@ -27,17 +27,18 @@ Once the program is running, it will prompt the user to input the personnel's jo
 
 This is the initial prompt: 
 
-```What is the job title: ```
+`What is the job title: `
 
-``` What is the job title: Precon Exec
-Enter the wage, the effort precentage, and the amount of weeks it takes to complete the construction separated with a space:  
-After one entry the code should display: ```
+`What is the job title: Precon Exec
+Enter the wage, the effort precentage, and the amount of weeks it takes to complete the construction separated with a space:  `
 
 An example entry should look like this: 50 23 45
 
-```Current roster: 
+This is how it will look after everything for that personnel is added.
+
+`Current roster: 
 What is the job title: Precon Exec
 Enter the wage, the effort precentage, and the amount of weeks it takes to complete the construction separated with a space: 50 32 45
 Entire Roster Pay: 28800.0
 Precon Exec was added to the roster
-Type 'exit' to exit the program or Press return to continue: ```
+Type 'exit' to exit the program or Press return to continue: `
