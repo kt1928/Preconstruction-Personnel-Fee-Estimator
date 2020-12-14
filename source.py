@@ -24,3 +24,11 @@ class Person:
 
   def __str__(self):
       return "Title: " + self.jobTitle + ", Wage: " + str(self.wage) + ", Effort: " + str(self.effort)
+
+  def write_to_csv(self, week, roster): # Exports inputted data as a csv
+    with open('output.csv', mode='w') as roster_file:
+        writer = csv.writer(roster_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+
+        for x in roster:
+          writer.writerow([x.jobTitle, x.wage, x.effort, x.calc_pay(x.wage, week, x.effort)])
+          
