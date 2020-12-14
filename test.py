@@ -11,3 +11,13 @@ class TestRoster(unittest.TestCase):
     title2 = 'Employee'
     effort2 = 100
     wage2 = 21
+
+    def test_create_person(self):
+        """
+        Test whether person gets created
+        """
+        title= 'Exec'
+        wage = 10
+        effort = 100
+        person = f.Person(title, wage, effort)
+        self.assertIsNotNone(person)
