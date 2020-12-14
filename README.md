@@ -27,8 +27,8 @@ Once the program is running, it will prompt the user to input the personnel's jo
 
 This is the initial prompt: 
 
-```What is the job title: 
-```
+```What is the job title: ```
+
 as you enter the job title the next prompt will look like this
 
 ```What is the job title: Precon Exec
