@@ -24,14 +24,20 @@ Downlaod the program and unzip it. Then open the folder contaning the program in
 ## How to use the program
 
 Once the program is running, it will prompt the user to input the personnel's job title, wage per hour, effort percentage, and weeks worked. After each personnel is added, the program will continue to ask if the user is done. The user can either input 'exit' to move on to the phase or press return to continuing entering more inputs. After the user has inputted everything the program will export all entered information to a CSV for the user. 
-This is the initial prompt: 
-```What is the job title:
 
-After one entry the code should display: 
+This is the initial prompt: 
+
+```What is the job title: ```
+
+``` What is the job title: Precon Exec
+Enter the wage, the effort precentage, and the amount of weeks it takes to complete the construction separated with a space:  
+After one entry the code should display: ```
+
+An example entry should look like this: 50 23 45
 
 ```Current roster: 
 What is the job title: Precon Exec
 Enter the wage, the effort precentage, and the amount of weeks it takes to complete the construction separated with a space: 50 32 45
 Entire Roster Pay: 28800.0
 Precon Exec was added to the roster
-Type 'exit' to exit the program or Press return to continue:
+Type 'exit' to exit the program or Press return to continue: ```
