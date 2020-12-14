@@ -59,3 +59,7 @@ class TestRoster(unittest.TestCase):
         person2 = f.Person(self.title2, self.wage2, self.effort2)
         person2.add_personnel()
         self.assertEqual(len(f.full_roster), 2)
+
+
+if __name__ == '__main__':
+    unittest.main()
