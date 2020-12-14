@@ -43,3 +43,13 @@ if __name__ == '__main__':
       wage, effort, weeks = [int(x) for x in input("Enter the wage, the effort precentage, and the amount of weeks it takes to complete the construction separated with space: ").split()] #Example 34 10 14
       person = Person(title, wage, effort)
       totalPay += person.calc_pay(wage, weeks, effort)
+
+      print("Entire Roster Pay: " + str(totalPay))
+      person.add_personnel()
+
+      exot = input("Enter 'exit' if you want to exit: ")
+      if exot == 'exit':
+        person.write_to_csv(weeks, full_roster)
+        break
+
+
