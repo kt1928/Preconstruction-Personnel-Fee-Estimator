@@ -31,4 +31,11 @@ class Person:
 
         for x in roster:
           writer.writerow([x.jobTitle, x.wage, x.effort, x.calc_pay(x.wage, week, x.effort)])
-          
+
+
+if __name__ == '__main__':
+
+    while True:
+      prompt = print("Current roster: ")
+      for x in full_roster:
+        print(x)
