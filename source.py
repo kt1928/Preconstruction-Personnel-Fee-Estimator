@@ -39,3 +39,7 @@ if __name__ == '__main__':
       prompt = print("Current roster: ")
       for x in full_roster:
         print(x)
+      title = input("What is the job title: ")
+      wage, effort, weeks = [int(x) for x in input("Enter the wage, the effort precentage, and the amount of weeks it takes to complete the construction separated with space: ").split()] #Example 34 10 14
+      person = Person(title, wage, effort)
+      totalPay += person.calc_pay(wage, weeks, effort)
