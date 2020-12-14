@@ -1,11 +1,11 @@
 # Preconstruction-Personnel-Fee-Estimator
 This program estimates preconstruction personnel fee for each phase of construction and the entire construction
 
-Assumptions:
+_Assumptions:
 
 * A work week is 40 hours
 
-Inputs:
+_Inputs:
 
 * For each personnel, you will be asked to input their:
   * Job title
@@ -13,7 +13,7 @@ Inputs:
   * Effort precentage 
   * Weeks worked
 
-Output:
+_Output:
 
 * A CSV containing each personnel's cost, the total cost estimate for the personnel for that phase of construction, and the total  
 
@@ -27,18 +27,26 @@ Once the program is running, it will prompt the user to input the personnel's jo
 
 This is the initial prompt: 
 
-`What is the job title: `
+```What is the job title: 
+```
+as you enter the job title the next prompt will look like this
 
-`What is the job title: Precon Exec
-Enter the wage, the effort precentage, and the amount of weeks it takes to complete the construction separated with a space:  `
+```What is the job title: Precon Exec
+Enter the wage, the effort precentage, and the amount of weeks it takes to complete the construction separated with a space:  
+```
 
-An example entry should look like this: 50 23 45
+An entry should look like this: 50 23 45
 
 This is how it will look after everything for that personnel is added.
 
-`Current roster: 
+```Current roster: 
 What is the job title: Precon Exec
 Enter the wage, the effort precentage, and the amount of weeks it takes to complete the construction separated with a space: 50 32 45
 Entire Roster Pay: 28800.0
 Precon Exec was added to the roster
-Type 'exit' to exit the program or Press return to continue: `
+Type 'exit' to exit the program or Press return to continue: 
+```
+Continue to add personnel until done. Once the user types _exit_ it will stop the program and export all data to a csv and look like this: 
+
+```
+Precone Exec | 50 | 32 | 28800.0
