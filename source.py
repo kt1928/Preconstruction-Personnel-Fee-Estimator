@@ -10,3 +10,7 @@ class Person:
       self.jobTitle = jobTitle
       self.wage = wage
       self.effort = effort
+
+  def add_personnel(self): # A list for storing Personnel added to the job
+      full_roster.append(self)
+      print(self.jobTitle + " was added to the roster")
