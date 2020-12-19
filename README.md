@@ -19,7 +19,7 @@ _Output:_
 
 ## Setup
 
-Downlaod the program and unzip it. Then open the folder contaning the program in the enviroment of your choice. Make sure the csv file is in the same folder as the program
+Downlaod the program folder and unzip it. Then open the folder contaning the program in Visual Studio Code.
 
 ## How to use the program
 
